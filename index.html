@@ -4,7 +4,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Bootstrap JS and Popper.js (required for Bootstrap features) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      /* Add the CSS adjustments here */
+      .modal-content {
+          padding: 0;
+          border: none;
+      }
+  
+      .modal {
+          background-color: transparent;
+      }
+  
+      .embed-responsive-16by9 {
+          position: relative;
+          display: block;
+          width: 100%;
+          padding: 0;
+          overflow: hidden;
+      }
+  
+      .embed-responsive-16by9::before {
+          content: "";
+          display: block;
+          padding-top: 56.25%;
+      }
+  
+      .embed-responsive .embed-responsive-item,
+      .embed-responsive iframe,
+      .embed-responsive embed,
+      .embed-responsive object,
+      .embed-responsive video {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+      }
+      /* Customize play button appearance */
+/* Customize play button appearance */
+.bi.bi-play {
+    font-size: 5rem; /* Increase size */
+    color: #ffffff; /* Set button color to white */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    padding: 1rem; /* Add padding for better spacing */
+    transition: transform 0.3s ease;
+
+    /* Add hover effect */
+    &:hover {
+        transform: scale(1.1); /* Slight scale-up on hover */
+    }
+}
+  </style>
   </head>
   <body>
     <!--basic navbar start-->
@@ -57,6 +119,42 @@ data-bs-target="#navmenu"
 <!--Basic Navbar end-->
 
 <!--showcase-->
+
+<section id="gtco-hero" class="gtco-cover d-flex justify-content-center align-items-center"
+    style="background-image: url(images/alkukuva.jpg); background-size: cover; height: 70vh;" data-section="home">
+    <div class="overlay"></div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="text-white">
+                <h1 class="animate__animated animate__fadeIn">DIGIMUUNTAMO</h1>
+                <h2 class="animate__animated animate__fadeIn" style="font-size: 1.5rem;">KOODAA URASI UUTEEN KASVUUN</h2>
+                <p class="gtco-video-link animate__animated animate__fadeIn">
+                    <a href="#" class="popup-vimeo" data-bs-toggle="modal" data-bs-target="#videoModal"
+                        alt="Video esittely" aria-label="Video esittely"><i class="bi bi-play"></i></a>
+                </p>
+                <h2 class="animate__animated animate__fadeIn" style="font-size: 1.5rem;">Katso esittelyvideo koulutuksesta</h2>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" style="max-width: 50vw;">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/38nYhaEJDho?autoplay=1" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="bg-dark text-light p-5 text-center">
 <div class="container">
 </div>
