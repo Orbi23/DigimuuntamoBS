@@ -10,6 +10,9 @@
 <!-- Bootstrap Icons CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
+<!-- Experience Carousel CSS -->
+<link href="css/carousel.css" rel="stylesheet">
+
 <!-- Bootstrap JS and Popper.js (required for Bootstrap features) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -76,55 +79,52 @@
     color: #0bac89; /* Replace with your secondary color */
 }
   </style>
+
   </head>
   <body>
 
     <!--basic navbar start-->
-  <nav class="navbar navbar-expand-lg bg-success navbar-success">
-    <div class="container">
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-success navbar-success fixed-top">
+    <div class="container-fluid">
       <a href="#" class="navbar-brand"><img width: auto
         height: 5vh src="images/digimuuntamo_logo4.png" alt="Digimuuntamo"></a>
 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<button
-class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#navmenu"
->
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navmenu">
-  <ul class="navbar-nav ms-auto">
-    <li class="nav-item">
-       <a href="" class="nav-link">Front Page</a>
-    </li>
-    <li class="nav-item">
-    <a href="" class="nav-link">Welcome</a>
-    </li>
-    <li class="nav-item">
-        <a href="" class="nav-link">Training</a>
-    </li>
-    <li class="nav-item">
-        <a href="" class="nav-link">The Teachers</a>
-    </li>
-    <li class="nav-item">
-        <a href="" class="nav-link">Projects</a>
-    </li>
-    <li class="nav-item">
-      <a href="" class="nav-link"></a>
-  </li>
-    <li class="nav-item">
-      <a href="https://www.facebook.com/digimuuntamo" class="nav-link external" target="_blank" aria-label="facebook"><img src="images/facebook.svg" alt="Facebook"></a>
-    </li>
-    <li class="nav-item">
-      <a href="https://www.instagram.com/digimuuntamo/" class="nav-link external" target="_blank" aria-label="instagram"><img src="images/instagram.svg" alt="Instagram"></a>
-    </li>
-</ul>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="" class="nav-link">ETUSIVU</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Tervetuloa" class="nav-link">TERVETULOA</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kohderyhma" class="nav-link">KOULUTUS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#opettajat" class="nav-link">OPETTAJAT</a>
+          </li>
+        <li class="nav-item">
+            <a href="#projektit" class="nav-link">PROJEKTEJA</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/digimuuntamo" class="nav-link external" target="_blank" aria-label="facebook"><img src="images/facebook.svg" alt="Facebook"></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/digimuuntamo/" class="nav-link external" target="_blank" aria-label="instagram"><img src="images/instagram.svg" alt="Instagram"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </div>
-</div>
-</nav>
 <!--Basic Navbar end-->
 
 <!--showcase-->
@@ -163,21 +163,23 @@ data-bs-target="#navmenu"
         </div>
     </div>
 </div>
-
+<div id="Tervetuloa">
+  <svg class="bd-placeholder-img" width="100%" height="50px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="50px" fill="rgb(25, 135, 84)"/></svg>
+</div>
 <section class="bg-dark text-light p-5 text-center">
 <div class="container">
 </div>
 <div>
-    
+
 </div>
 <div>
-<div class="col-md-8 offset-md-2" >
+<div class="col-md-8 offset-md-2">
 
     <h1>TERVETULOA MUKAVAAN OPPIMISYMPÄRISTÖÖN</h1>
 
          <p>Tule mukaan uudenlaiseen oppimisympäristöön, pääset oppimaan kokeilemalla ja tekemällä. Digimuuntamo tarjoaa sinulle mukavan ympäristön oppia laaja-alaisesti digialan taitoja aina verkkosivujen teosta kuvankäsittelyyn. Pohjana sinulla voi toimia aikaisempi ammattisi, työkokemuksesi tai harrastuneisuutesi. Pääset syventämään koodaustaitojasi Esedun osaavien opettajien opetuksen ja oikeiden koodausprojektien kautta. Et välttämättä tarvitse aikaisempaa kokemusta koodaamisesta, motivaatio ja halu kokeilla uutta riittävät. Asetamme yhdessä sinua palvelevat tavoitteet ja saavutetaan hyvät perustaidot. Digimuuntamosta voit laajentaa digiosaamistasi, jotka ovat työelämässä kovaa valuuttaa.</p>
          <p>Hyppää mukaan, autamme sinua löytymään vahvuutesi!</p>
-    <img class="card-img-top" src="/img/412.jpg" alt="">
+    <img class="card-img-top" src="/imga/412.jpg" alt="">
     <div>
 </div>
 
@@ -186,7 +188,9 @@ data-bs-target="#navmenu"
 
 </section>
   </section>
-
+  <div id="kohderyhma">
+    <svg class="bd-placeholder-img" width="100%" height="50px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="50px" fill="rgb(25, 135, 84)"/></svg>
+  </div>
 <!--3 big boxes-->
 <section id="gtco-kohderyhma" data-bs-section="kohderyhma">
     <div class="container">
@@ -253,36 +257,14 @@ data-bs-target="#navmenu"
             <p class="sub"></p>
         </div>
     </div>
-
-<!--boxes-->
-<section class="p5">
-
-  <div class="container">
-<div class="row g-5 justify-content-evenly">
-  <div class="col-lg-6">
-    <div class="card">
-      <div class="row g-0">
-        <div class="col-6 col-md-5">
-          <img class="card-img img-fluid" src="images/Joacim.jpg" alt="">
-        </div>
-<div class="h1 mb-3">
-  <i class="bi bi-star"></i>
 </div>
-       <h3 class="card-title mb-3">
-Joacim Ronn
-       </h3>
-<p class="card-text">
-  austaltani olen järjestelmäasiantuntija, viimeiset 20+ vuotta olen kouluttanut, auttanut ja korjannut mac, win sekä linuxin koneita ja palvelimia. KasvuEsedulla koulutan sisällöntuotanto puolelta kuvankäsittelyä sekä videoeditointia. Myös HTML/CSS ja Worpress osaaminen ovat vahvuuksiani. Harrastuksena lennän itse kasaamia FPV-droneja sekä yhtä kaupallista DJI dronea.
-  Joacim Rönn, Kouluttaja, KasvuEsedu, joacim.ronn@esedu.fi
-  <div class="card-img">
-  </div>
-</p>
-        
-      </div>
-    </div>
-    
-    </div>
+<!--boxes-->
 
+<div id="opettajat">
+  <svg class="bd-placeholder-img" width="100%" height="100px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100px" fill="rgb(255, 255, 255)"/></svg>
+</div>
+
+  <section class="p5">
     <div class="container">
       <div class="row g-5 justify-content-evenly">
         <div class="col-lg-6">
@@ -293,10 +275,9 @@ Joacim Ronn
               </div>
             </p>
       <div class="h1 mb-3">
-        <i class="bi bi-star"></i>
 </div>
        <h3 class="card-title mb-3">
-        Tumoas Puro
+        Tuomas Puro
           </h3>
           <p class="card-text">
             Yli kahdenkymmenen vuoden kokemus koodaamisesta ja it-teknologioista. IT-alan opettajana ollut yli kymmenen vuotta. Opettajan työssä pyrin toteuttamaan opetusta työelämä- ja opiskelijalähtöisesti. Motto: No mistakes, just happy accidents.
@@ -308,6 +289,36 @@ Joacim Ronn
   </div>
 
 </section>
+
+<section class="p5">
+
+  <div class="container">
+<div class="row g-5 justify-content-evenly">
+  <div class="col-lg-6">
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-6 col-md-5">
+          <img class="card-img img-fluid" src="images/Joacim.jpg" alt="">
+        </div>
+<div class="h1 mb-3">
+  
+</div>
+       <h3 class="card-title mb-3">
+Joacim Ronn
+       </h3>
+<p class="card-text">
+  Taustaltani olen järjestelmäasiantuntija, viimeiset 20+ vuotta olen kouluttanut, auttanut ja korjannut mac, win sekä linuxin koneita ja palvelimia. KasvuEsedulla koulutan sisällöntuotanto puolelta kuvankäsittelyä sekä videoeditointia. Myös HTML/CSS ja Worpress osaaminen ovat vahvuuksiani. Harrastuksena lennän itse kasaamia FPV-droneja sekä yhtä kaupallista DJI dronea.
+  Joacim Rönn, Kouluttaja, KasvuEsedu, joacim.ronn@esedu.fi
+  <div class="card-img">
+  </div>
+</p>
+        
+      </div>
+    </div>
+    
+    </div>
+  </section>
+
 <section class="p5">
 
   <div class="container">
@@ -319,7 +330,7 @@ Joacim Ronn
           <img class="card-img img-fluid" src="images/salla_gummerus kopio.jpg" alt="">
         </div>
 <div class="h1 mb-3">
-  <i class="bi bi-star"></i>
+  
 </div>
        <h3 class="card-title mb-3">
 Salla Gummerus
@@ -342,7 +353,7 @@ Salla Gummerus, KasvuKehittäjä, KasvuEsedu, 040 513 6032, salla.gummerus@esedu
           <img class="card-img img-fluid" src="images/aki_helenius kopio.jpg" alt="">
         </div>
 <div class="h1 mb-3">
-  <i class="bi bi-star"></i>
+  
 </div>
        <h3 class="card-title mb-3">
         Aki Helenius
@@ -364,14 +375,13 @@ Aki Helenius, Esedu, 040 688 6619, aki.helenius@esedu.fi
           <img class="card-img img-fluid" src="images/timo_hakkinen_kopio.jpg" alt="">
         </div>
 <div class="h1 mb-3">
-  <i class="bi bi-star"></i>
+  
 </div>
        <h3 class="card-title mb-3">
         Timo Häkkinen
        </h3>
 <p class="card-text">
-  Esedun uraohjaaja Timo Häkkinen. Työskentelen Esedulla hankeyksikössä yhdettätoista vuotta ja teen uraohjaajan ja ohjaamo olkkarin opon työtä. 3 lapsen isä ja baikkeri. Ajan harrikalla ja asun Rantakylässä. Teen myös sivutoimisesti maankaivuutöitä pikkukaivurillani
-  Timo Häkkinen, Esedu, 044 711 5718, timo.hakkinen@esedu.fi
+  Esedun uraohjaaja vuodesta 2021 ja työskennellyt Esedun hankkeissa vuodesta 2012. Voin auttaa kaikissa uraan liittyvissä kysymyksissä ja haasteissa, kuten urapolun selvittämisessä, koulutuksiin hakemisessa ja töiden etsimisessä. Timo Häkkinen, Esedu, 044 711 5718, timo.hakkinen@esedu.fi
   <div class="card-img">
   </div>
 
@@ -387,7 +397,7 @@ Aki Helenius, Esedu, 040 688 6619, aki.helenius@esedu.fi
           <img class="card-img img-fluid" src="images/hermanni kopio.jpg" alt="">
         </div>
 <div class="h1 mb-3">
-  <i class="bi bi-star"></i>
+  
 </div>
        <h3 class="card-title mb-3">
         Hermanni Saresma
@@ -403,137 +413,340 @@ Aki Helenius, Esedu, 040 688 6619, aki.helenius@esedu.fi
 </div>
 </div>
 </p>
-<!--Carousel slider start-->
-<section>
 
-  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div id="projektit">
+  <svg class="bd-placeholder-img" width="100%" height="100px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100px" fill="rgb(255, 255, 255)"/></svg>
+</div>
+
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <p><img src="images/digimuuntamo_at.png"></p>
+      <h3 class="fw-normal">Moottorilapio Verkkosivuston Toteutus</h3>
+      <p>Saimme tehtäväksemme suunnitella ja toteuttaa verkkosivut asiakkaalle, joka tekee pienkaivuutöitä moottorilapiolla. Tämä oli ryhmämme jäsenten ensimmäinen WordPress-sivuston toteutus aiheeseen saadun opetuksen jälkeen. Projektista saimme erinomaisesta oppia ja lisätaitoa sivustojen tekoon. Asiakkas oli hyvin tyytyväinen lopputulokseen.</p>
+      <p>Vieraile sivustolla <a href="https://moottorilapio.fi/">moottorilapio.fi</a></p>
+      <p>Tekijät: Jenna S. Masa S. Mika M.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <p><img src="images/digimuuntamo_at.png"></p>
+      <h3 class="fw-normal">Videon Toteutus</h3>
+      <p>Harjoittelin videonkäsittelyohjelma DaVinci Resolvella kuvan liittämistä videoon ja liikeradan käyttöä.</p><p><a href="https://www.youtube.com/watch?v=Jb3Ms3y5BOI">Katso video</a></p>
+      <p>Tekijä: Jaana</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <p><img src="images/digimuuntamo_at.png"></p>
+      <h3 class="fw-normal">Karhulan Tori Apteekin Verkkosivuston Toteutus</h3>
+      <p>Asiakkaan suunnasta saimme projektiksi uudistamisen. Suunnittelu ja toteutus on tehty WordPressiä käyttäen. Tämä oli meidän ryhmämme ensimmäinen verkkosivuston toteutus WordPressin avulla. Asiakkaalta saimme positiivista palautetta toteutuksesta.</p>
+      <p>Vieraile sivustolla <a href="https://karhulanapteekki.fi/">karhulanapteekki.fi</a></p>
+      <p>Tekijät: Tommi S. Vladislav D. Kari A</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <p><img src="images/digimuuntamo_at.png"></p>
+      <h3 class="fw-normal">Digimuuntamon Verkkosivuston Toteutus</h3>
+      <p>Tämä kyseinen Digimuuntamon verkkosivu on ensimmäisen kerran toteutettu Digimuuntamo 1.0- koulutuksessa ja sitä on jatkettu Digimuuntamo 2.0 koulutuksessa. Sivusto on toteutettu Bootstrapia hyödyntäen. Sivusto toimii myös harjoitusalustana,jossa koulutukseen osallistuneet pääsevät kokoajan kehittämään sivustoa vaihe vaiheelta.</p>
+      <p>Tekijät: Tommi S. Aleksi R. Jenna S. Masa S.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <p><img src="images/digimuuntamo_at.png"></p>
+      <h3 class="fw-normal">Kierratys Peli</h3>
+      <p>Saimme Esedun opettajilta pyynnön kehittää kierrätykseen liittyvää peliä, jossa tarkoituksena opettaa oppilaita kierrätykseen. Peli tuli koulun sisäiseen käyttöön. Pääsimme projektissa syventymään JavaScriptin maailmaan.</p>
+      <p>Tekijät: Vladislav D. Mika M.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <p><img src="images/digimuuntamo_at.png"></p>
+      <h3 class="fw-normal">Cafe Saundi Verkkosivuston Toteutus</h3>
+      <p>Asiakkaan toiveena oli uudistaa lounaskahvilan verkkosivut. Saimme suunnitella ja toteuttaa Cafe Saundin verkkosivut haluamallamme tavalla, päädyimme toteuttamaan sivut Wordpressin avulla. Tavoitteena oli myös, että asiakkaan on helppo itse päivittää sivuja halutessaan. Sivustosta tuli nykyaikaisempi ja laadullisesti paremmat kuin aiemmin ja asiakkaalle tuli huomattavasti enemmän lisäarvoa verkkosivuston olemassa olosta.</p>
+      <p><a href="https://cafesaundi.fi/">Cafe Saundi</a></p>
+      <p>Tekijät: Tommi S. Jenna S. Masa S.</p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+<!-- experiences carousel start -->
+
+<div class="section">
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators"> 
+      <!-- side navigation for each slide -->
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="13" aria-label="Slide 14"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="14" aria-label="Slide 15"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="15" aria-label="Slide 16"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="16" aria-label="Slide 17"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="17" aria-label="Slide 18"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="18" aria-label="Slide 19"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="19" aria-label="Slide 20"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="20" aria-label="Slide 21"></button>
+    </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-          
-          
-  <div class="row">
-      
-      <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Moottorilapio Verkkosivuston Toteutus</h5>
-      <p class="card-text">"Saimme tehtäväksemme suunnitella ja toteuttaa verkkosivut asiakkaalle, joka tekee pienkaivuutöitä moottorilapiolla. Tämä oli ryhmämme jäsenten ensimmäinen WordPress-sivuston toteutus aiheeseen saadun opetuksen jälkeen. Projektista saimme erinomaisesta oppia ja lisätaitoa sivustojen tekoon. 
-        Asiakkas oli hyvin tyytyväinen lopputulokseen."
-        
-        Vieraile sivustolla moottorilapio.fi
-        
-        Tekijät: Jenna S
-         Masa S. MikaM.</p>
-    <img src="images/Moottorilapio_logo.png" height=100px alt="">
-    </div>
-  </div>
-      </div>
-      
-      <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Videon Toteutus</h5>
-      <p class="card-text">"Harjoittelin videonkäsittelyohjelma DaVinci Resolvella kuvan liittämistä videoon ja liikeradan käyttöä." Katso video
-        Tekijä: Jaana</p>
-      <img src="images/Kissa.png"height=100px alt="">
-    </div>
-  </div>
-      </div>
-      
-      
-      <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Karhulan Tori Apteekin Verkkosivuston Toteutus</h5>
-      <p class="card-text">" Asiakkaan suunnasta saimme projektiksi uudistamisen. Suunnittelu ja toteutus on tehty WordPressiä käyttäen. Tämä oli meidän ryhmämme ensimmäinen verkkosivuston toteutus WordPressin avulla. 
-        Asiakkaalta saimme positiivista palautetta toteutuksesta."
-        
-        Vieraile sivustolla karhulanapteekki.fi
-        
-        Tekijät: Tommi S. Vladislav D. Kari A</p>
-   <img src="images/Hyllykuva.jpg" height=100px alt="">
-    </div>
-  </div>
-      </div>
-      
-  </div>
-          
-          
-          
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Tommi</h1>
+            <h4>Digimuuntamo 1.0 & 2.0</h4>
+            <p>Olen oppinut paljon unohdettuja entisiä oppeja ja vielä enemmän
+              uutta! Olemme päässeet tekemään myös oikeita työelämäprojekteja.
+              Opiskelu on ollut mukavaa mukavassa tiimissä. Suosittelen digimuuntamoa kaikille, ja
+              aion jatkaa digimuuntamon seuraavalle kurssille.</p>
+          </div>
+        </div>
       </div>
       <div class="carousel-item">
-          
-          
-          
-  <div class="row">
-      
-      <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Kierratys Peli</h5>
-      <p class="card-text">"Saimme Esedun opettajilta pyynnön kehittää kierrätykseen liittyvää peliä, jossa tarkoituksena opettaa oppilaita kierrätykseen. Peli tuli koulun sisäiseen käyttöön. Pääsimme projektissa syventymään JavaScriptin maailmaan." Tekijät: Vladislav D. Mika M.</p>
-   <img src="images/Roskikset.png"height=100px alt="">
-    </div>
-  </div>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Joacim</h1>
+            <h4>Digimuuntamo 1.0 & 2.0</h4>
+            <p>Kokemus on ollut erilainen kuin aluksi oletin. Todella mukava tapa
+              opiskella. Tiimityöskentely on ollut mukavaa, ja olenkin oppinut paljon tiimityöstä.</p>
+          </div>
+        </div>
       </div>
-      
-      <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Digimuuntamon Verkkosivuston Toteutus</h5>
-      <p class="card-text">"Tämä kyseinen Digimuuntamon verkkosivu on ensimmäisen kerran toteutettu Digimuuntamo 1.0- koulutuksessa ja sitä on jatkettu Digimuuntamo 2.0 koulutuksessa. Sivusto on toteutettu Bootstrapia hyödyntäen. Sivusto toimii myös harjoitusalustana,jossa koulutukseen osallistuneet pääsevät kokoajan kehittämään sivustoa vaihe vaiheelta." Tekijät: Tommi S. Aleksi R. Jenna S. Masa S.</p>
-    <img src="images/digimuuntamo_at.png" alt="">
-    </div>
-  </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Olli</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>En olisi uskonut että jonakin päivänä osaan koodata omat nettisivut ja paljon muuta. Kiitos Digimuuntamo!</p>
+          </div>
+        </div>
       </div>
-      
-      
-      <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Cafe Saundi Verkkosivuston Toteutus</h5>
-      <p class="card-text">
-        "Asiakkaan toiveena oli uudistaa lounaskahvilan verkkosivut. Saimme suunnitella ja toteuttaa Cafe Saundin verkkosivut haluamallamme tavalla, päädyimme toteuttamaan sivut Wordpressin avulla. Tavoitteena oli myös, että asiakkaan on helppo itse päivittää sivuja halutessaan. Sivustosta tuli nykyaikaisempi ja laadullisesti paremmat kuin aiemmin ja asiakkaalle tuli huomattavasti enemmän lisäarvoa verkkosivuston olemassa olosta."
-        
-        Työn alla. 
-        
-        Tekijät: Tommi S. Jenna S. Masa S.</p>
-     <img src="images/Cafesaundi.png"height=100px alt="">
-    </div>
-  </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Aleksi</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Päässyt kokeilemaan heti käytännössä, mikä on auttanut havainnollistamaan mistä on kysymys.</p>
+          </div>
+        </div>
       </div>
-      
-  </div>
-      
-          
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jenna S.</h1>
+            <h4>Digimuuntamo 1.0 & 2.0</h4>
+            <p>Mukava tapa opiskella mukavassa porukassa. Aitojen työelämäprojektien
+              kautta päässyt tekemään mielenkiintoisia juttuja
+              ja oppinut paljon uutta.</p>
+          </div>
+        </div>
       </div>
-      
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Masa</h1>
+            <h4>Digimuuntamo 2.0</h4>
+            <p>Koulutus antanut enemmän mitä osasin odottaa. Aiempaa tietotaitoa
+              pääsi syventämään oman kiinnostuksen mukaan.
+              Uudenlainen oppimismuoto on nykypäivää ja mukailee hyvin paljon työelämää. Erittäin
+              positiivinen kokemus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Mika</h1>
+            <h4>Digimuuntamo 2.0</h4>
+            <p>Parasta antia ovat olleet wordpress (web sivujen kehitys) ja javascript ohjelmointi, unohtamatta HTML/CSS säätöä, sisällöntuotantoa (kuvien käsittely).</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Kari</h1>
+            <h4>Digimuuntamo 2.0</h4>
+            <p>Olen saanut treenattua vanhoja taitoja ja oppinut uutta. Porukka on mukavaa ja läppä välillä lentää. Itselleni on ollut hyvä nettisivujen teon ja videoeditoinnin kertaus uusilla ohjelmilla. Jees.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Vladislav</h1>
+            <h4>Digimuuntamo 2.0</h4>
+            <p>Olen tyytyväinen koulutukseen. Olen osallistunut pariin projektiin ja
+              näen valmista tulosta minun osaamisesta. Olen tutustunut uuteen ohjelmointikieleen mistä nyt tykkään. Opiskelijaporukassa toimiminen oli edullista. Koulutus on hyvä!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jani T.</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Todella hieno koulutus. Paljon uutta olen oppinut. Jotain tällaista
+              kurssia olen tarvinnut jo pitemmän aikaa. Toivottavasti jatkoa on luvassa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Simo</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Olen oppinut paljon uutta, josta tulee olemaan suuri hyöty alallani
+              markkinoinnin ja palveluiden kehittämisen parissa. Suosittelen kaikille oman
+              ammattitaidon kehittämiseksi, koska tietoa koodaamisesta ja nettisivujen tekemisestä
+              tarvitaan alalla kuin alalla nykypäivänä.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jani K.</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Vanhojen css ja html taitojen päivittämistä sekä uutena python ja
+              javascriptin opettelua. Oppinut paljon uutta ja kaiken kaikkiaan positiivinen kokemus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Petteri</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Digimuuntamo kurssi on ollut hyödyllinen vanhojen taitojen
+              päivittämiseen. Projektit myös antavat mahdollisuuden kartuttaa portfoliota.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jenna P.</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutus on antanut mahdollisuuden oppia paljon uusia asioita.
+              Tehtävät ovat olleet monipuolisia ja opiskelu on ollut rentoa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Sari</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutus on mahdollista suorittaa etänä joka on minulle todella hyvä etu, koska pystyn kotona luomaan sellaisen tilan jossa kykenen keskittymään ja työskentelemään rauhassa. Tehtävien ollessa haastavia, olen saanut pyytäessä kertausta ja apua, sekä uraohjaus on tuntunut mukavalta. Tästä on hyvä jatkaa eteenpäin elämässä.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Kalle</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutuksessa on päässyt hyvin kertaamaan jo opittuja taitoja sekä
+              kokemaan millaista on olla osana projektitiimiä. Olen myös päässyt uusien haasteiden
+              äärelle koulutuksen aikana esim. uuden ohjelmointikielen pariin.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Pyry</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutus mahdollistaa projektityöskentelyn ja itsensä kehittämisen.
+              Työtilat ovat laadukkaat ja oppimateriaali monipuolista.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Miika</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutus on ollut kokonaisuudessaan hyvin mielenkiintoinen. Olen
+              saanut paljon uutta tietoa koodaamisesta sekä eri ohjelmista esim. videonmuokkauksesta.
+              Projektien monipuolisuus on erittäin inspiroivaa!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jaana</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutus on ollut tiivistahtinen ja paljon on saanut oppia uutta ja
+              samalla päivittää jo aiempaa osaamistaan nykypäivään. Opiskelua on saanut tehdä myös
+              omaan tahtiin ja omiin mielenkiinnon kohteisiin painottuen, josta iso plussa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(15, 84, 52)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Antti</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Oppinut käyttämään uusia ohjelmia ja ohjelmointitekniikoita. On ollut
+              sopivan haastava ja rento meininki.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgb(25, 135, 84)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Mirka</h1>
+            <h4>Digimuuntamo 1.0</h4>
+            <p>Koulutus antoi hyvän mahdollisuuden päästä palauttamaan mieleen
+              aiempia oppeja, jotka olivat päässeet unohtumaan käytön puutteen vuoksi. Uuden oppimista pääsi myös syntymään. Nyt koulutuksen myötä uudella innolla jatkamaan kehittymistä tietotekniikan parissa.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
-  
-
-
-</div>
- 
-  
 </section>
 
-<!--carousel end-->
+<!-- experiences carousel end -->
+
+
+
 <!--Footer-->
 
 <div class="container">
